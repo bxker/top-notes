@@ -1,0 +1,14 @@
+{
+  "name": "top-notes",
+  "version": "1.0.0",
+  "description": "Note taking app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Jacob Baker",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^5.0.2"
+  }
+}
