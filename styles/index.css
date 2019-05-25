@@ -1,9 +1,7 @@
 html,body,.container {
     margin: 0 auto;
 }
-.container {
-   
-}
+
 
 .row {
     height: 100%;
@@ -16,9 +14,7 @@ html,body,.container {
 }
 
 
-#main-section {
-    max-width: ;
-}
+
 
 #note-title {
     padding-top: 10px;
