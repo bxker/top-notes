@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Top Notes</title>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "/styles/index.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -12,29 +13,57 @@
 <body class="text-monospace">
     <!--This is the section for the header-->
     <div class="navbar navbar-fixed-top container-fluid bg-dark text-light">
-        <h2 style="padding-left: 20px;">Top Notes</h2>
+        <h2 style="padding-left: 20px; ">Top Notes</h2>
         <button class="btn-danger float-right">Log Out</button>
     </div>
-   <div class="container-fluid bg-secondary text-light m-0 p-0" style="width: 248px; height: 93.5vh; text-align: center;">
-        <div class="row">
-            <div class="list-group align-center">
-                <button class="btn-danger">Add Note</button>
-                <a href="#" class="list-group-item list-group-item-action active bg-secondary text-light">
-                  Cras justo odio
-                </a>
-                <a href="#" class="list-group-item list-group-item-action bg-secondary text-light">Dapibus ac facilisis in</a>
-                <a href="#" class="list-group-item list-group-item-action bg-secondary text-light">Morbi leo risus</a>
-                <a href="#" class="list-group-item list-group-item-action bg-secondary text-light">Porta ac consectetur ac</a>
-                <a href="#" class="list-group-item list-group-item-action bg-secondary text-light">Vestibulum at eros</a>
-
-                
-              </div>
-        
-   </div>
     
-    <script>
-        // You can also require other files to run in this process
-        require('./renderer.js')
-    </script>
+    <div class="row">
+        <div class="col-3 no-float bg-secondary pr-0">
+                <div class="list-group align-center">
+                        <button class="btn-danger">Add Note</button>
+                        <a href="#" class="list-group-item list-group-item-action active bg-secondary text-light">
+                            Cras justo odio
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action bg-secondary text-light">Dapibus ac
+                            facilisis
+                            in</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-secondary text-light">Morbi leo
+                            risus</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-secondary text-light">Porta ac
+                            consectetur
+                            ac</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-secondary text-light">Vestibulum at
+                            eros</a>
+                        <a href="#" class="list-group-item list-group-item-action active bg-secondary text-light">
+                            Cras justo odio
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action bg-secondary text-light">Dapibus ac
+                            facilisis
+                            in</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-secondary text-light">Morbi leo
+                            risus</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-secondary text-light">Porta ac
+                            consectetur
+                            ac</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-secondary text-light">Vestibulum at
+                            eros</a>
+                    </div>
+        </div>
+        <div class="col-8 no-float pl-5" id="main-section">
+            <div class="m-0" contenteditable="true">
+                <h2 id="note-title">ENTER TITLE</h2>
+                <p id="note-subtitle">Subtitle for stuffs</p>
+            </div>
+            <div id="note-content" contenteditable="true">
+                <p>Test</p>
+            </div>
+        </div>
+    </div>
+    
+
+        <script>
+            // You can also require other files to run in this process
+            require('./renderer.js')
+        </script>
 </body>
 </html>

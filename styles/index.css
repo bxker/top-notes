@@ -1,0 +1,30 @@
+html,body,.container {
+    margin: 0 auto;
+}
+.container {
+   
+}
+
+.row {
+    height: 100%;
+    display: table-row;
+}
+
+.row .no-float {
+  display: table-cell;
+  float: none;
+}
+
+
+#main-section {
+    max-width: ;
+}
+
+#note-title {
+    padding-top: 10px;
+    margin: 0;
+}
+
+#note-content {
+    max-width: 80%;
+}
