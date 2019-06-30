@@ -8,8 +8,8 @@
     databaseURL: "https://top-notes-summer.firebaseio.com",
     projectId: "top-notes-summer",
     storageBucket: "top-notes-summer.appspot.com",
-    messagingSenderId: "265803590036",
-    appId: "1:265803590036:web:cc9382f5321a9a79"
+    messagingSenderId: "",
+    appId: ""
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
