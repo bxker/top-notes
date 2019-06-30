@@ -3,7 +3,7 @@
 // All of the Node.js APIs are available in this process.
  // Your web app's Firebase configuration
  var firebaseConfig = {
-    apiKey: "AIzaSyDnBAWY2Z0VDzUpgwjFt6-pSF3pE9zni6E",
+    apiKey: "",
     authDomain: "top-notes-summer.firebaseapp.com",
     databaseURL: "https://top-notes-summer.firebaseio.com",
     projectId: "top-notes-summer",
