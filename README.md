@@ -2,7 +2,7 @@
 
 TopNotes is a note-taking and productivity application.
 
-## Installation
+## Download
 
 [Windows](https://google.com)  
 [Mac](https://google.com)  
