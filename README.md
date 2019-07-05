@@ -3,7 +3,7 @@
 TopNotes is a note-taking and productivity application.
 
 ## Download
-This is the beta v0.1 of TopNotes  
+This is the beta v0.1 of TopNotes:  
 [Windows](https://google.com)  
 Mac & Linux coming soon.
 
