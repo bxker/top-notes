@@ -31,32 +31,24 @@
             <button id="btn-save">Save</button>
         </footer>
     </body>
-    <!-- Insert this line above script imports  -->
+    <!--This script tag allows jQuery to be used within Electron-->
     <script>
         if (typeof module === 'object') {window.module = module; module = undefined;} 
     </script>
 
-    <!-- normal script imports etc  -->
+    <!--Adds jQuery source-->
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>  
-
     <script>
         $(document).ready(function () {
 
             var noteCount = 0;
             var activeNote = null;
 
-            $('.color-box').click(function () {
-                var color = $(this).css('background-color');
-                $('notepad').css('background-color', color);
-                $('#title-field').css('background-color', color);
-                $('#body-field').css('background-color', color);
-            })
-
             $('#btn-save').click(function () {
                 var title = $('#title-field').val();
                 var body = $('#body-field').val();
                 if (title === '' && body === '') {
-                    alert('Please add a title or body to your note.');
+                    alert('Add a title.');
                     return;
                 }
                 var created = new Date();
