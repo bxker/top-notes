@@ -38,7 +38,7 @@ footer {
   text-align: center;
 }
 
-.noteList {
+noteList {
   display: inline-block;
   margin-left: 0%;
   width: 25%;
@@ -71,7 +71,7 @@ footer {
   border-bottom: solid 1px black;
 }
 
-.notePad {
+notePad {
   display: inline-block;
   height: 700px;
   overflow: scroll;
