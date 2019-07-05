@@ -1,6 +1,9 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
 header {
   text-align: left;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 800;
   font-size: 28px;
   border-bottom: solid 3px #dedede;
@@ -35,7 +38,7 @@ footer {
   text-align: center;
 }
 
-noteList {
+.noteList {
   display: inline-block;
   margin-left: 0%;
   width: 25%;
@@ -68,7 +71,7 @@ noteList {
   border-bottom: solid 1px black;
 }
 
-notePad {
+.notePad {
   display: inline-block;
   height: 700px;
   overflow: scroll;

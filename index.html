@@ -8,38 +8,37 @@
 </head>
 
 <body>
-    <header>
-        <h2>TopNotes</h2>
-        <span id="edit-mode" class="no-display">
-            <i> editing... </i>
-        </span>
-    </header>
-    <main>
-
-        <noteList>
-            <div id='listed'>
-            </div>
-        </noteList>
-        <notepad>
-            <div id="note-title">
-                <input id="title-field" type="text" placeholder="Give your note a Title!">
-            </div>
-            <div id="note-body">
-                <textarea id="body-field" placeholder="Enter your note in this area..."></textarea>
-            </div>
-        </notepad>
-    </main>
-    <footer>
-
-        <button id="btn-delete">Delete</button>
-        <button id="btn-save">Save</button>
-    </footer>
-</body>
-<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
-<script type='text/javascript' src='app.js'></script>
-<script>
-    // importing render.js
-    require('./notinuse/renderer.js')
-</script>
+        <header>
+            TopNotes
+            <span id="edit-mode" class="no-display">
+                <i>editing...</i>
+            </span>
+        </header>
+        <main>
+        
+            <noteList>
+                <div id='listed'>
+                </div>
+            </noteList>
+            <notepad>
+                <div id="note-title">
+                    <input id="title-field" type="text" placeholder="Give your note a Title!">
+                </div>
+                <div id="note-body">
+                    <textarea id="body-field" placeholder="Enter your note in this area..."></textarea>
+                </div>
+            </notepad>
+        </main>
+        <footer>
+        
+            <button id="btn-delete">Delete</button>
+            <button id="btn-save">Save</button>
+        </footer>
+        <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+        <script type='text/javascript' src='app.js'></script>
+        <script>
+            // importing render.js
+            require('./notinuse/renderer.js')
+        </script>
 </body>
 </html>
