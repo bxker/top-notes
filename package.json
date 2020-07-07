@@ -9,7 +9,7 @@
   "author": "Jacob Baker",
   "license": "MIT",
   "dependencies": {
-    "electron": "^5.0.2",
+    "electron": "^7.2.4",
     "electron-packager": "^14.0.1"
   }
 }
